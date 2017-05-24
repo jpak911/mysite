@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+__init__|/Users/jamesdeveloper/mysite/mysite/__init__.py
+polls.__init__|/Users/jamesdeveloper/mysite/mysite/polls/__init__.py
+polls.admin|/Users/jamesdeveloper/mysite/mysite/polls/admin.py
+polls.apps|/Users/jamesdeveloper/mysite/mysite/polls/apps.py
+polls.migrations.0001_initial|/Users/jamesdeveloper/mysite/mysite/polls/migrations/0001_initial.py
+polls.migrations.__init__|/Users/jamesdeveloper/mysite/mysite/polls/migrations/__init__.py
+polls.models|/Users/jamesdeveloper/mysite/mysite/polls/models.py
+polls.tests|/Users/jamesdeveloper/mysite/mysite/polls/tests.py
+polls.urls|/Users/jamesdeveloper/mysite/mysite/polls/urls.py
+polls.views|/Users/jamesdeveloper/mysite/mysite/polls/views.py
+settings|/Users/jamesdeveloper/mysite/mysite/settings.py
+urls|/Users/jamesdeveloper/mysite/mysite/urls.py
+wsgi|/Users/jamesdeveloper/mysite/mysite/wsgi.py

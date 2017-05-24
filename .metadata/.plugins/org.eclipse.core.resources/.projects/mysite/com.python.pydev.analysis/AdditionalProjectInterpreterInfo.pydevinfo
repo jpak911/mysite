@@ -1,0 +1,73 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/jamesdeveloper/mysite/.metadata/.plugins/org.eclipse.core.resources/.projects/mysite/com.python.pydev.analysis/v2_indexcache
+polls.admin|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/admin.py
+settings|1495427459000000000|/Users/jamesdeveloper/mysite/mysite/settings.py
+polls.tests|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/tests.py
+polls.models|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/models.py
+wsgi|1495422716000000000|/Users/jamesdeveloper/mysite/mysite/wsgi.py
+polls.views|1495502357000000000|/Users/jamesdeveloper/mysite/mysite/polls/views.py
+polls.apps|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/apps.py
+polls.__init__|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/__init__.py
+urls|1495427409000000000|/Users/jamesdeveloper/mysite/mysite/urls.py
+polls.urls|1495502357000000000|/Users/jamesdeveloper/mysite/mysite/polls/urls.py
+polls.migrations.0001_initial|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/migrations/0001_initial.py
+__init__|1495422716000000000|/Users/jamesdeveloper/mysite/mysite/__init__.py
+polls.migrations.__init__|1495493222000000000|/Users/jamesdeveloper/mysite/mysite/polls/migrations/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+1=settings
+8=urls
+10=Choice
+11=Migration
+2=polls.urls
+12=PollsConfig
+3=wsgi
+4=polls.models
+6=polls.migrations.0001_initial
+9=Question
+5=polls.views
+7=polls.apps
+-- END DICTIONARY
+-- START TREE 1
+25
+all|1|ALLOWED_HOSTS!11@
+app|2|app_name!19@application!27@
+aut|1|AUTH_PASSWORD_VALIDATORS!11@
+bas|1|BASE_DIR!11@
+cho|1|Choice!33@
+dat|1|DATABASES!11@
+deb|1|DEBUG!11@
+det|1|detail!42@
+ind|1|index!42@
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mid|1|MIDDLEWARE!11@
+mig|1|Migration!49@
+pol|1|PollsConfig!57@
+que|1|Question!33@
+res|1|results!42@
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATES!11@
+tim|1|TIME_ZONE!11@
+url|2|urlpatterns!19@urlpatterns!67@
+use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+vot|1|vote!42@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+10
+__s|2|__str__!9&34@__str__!10&34@
+cho|1|choice_text!10&35@
+dep|1|dependencies!11&51@
+ini|1|initial!11&51@
+nam|1|name!12&59@
+ope|1|operations!11&51@
+pub|1|pub_date!9&35@
+que|2|question_text!9&35@question!10&35@
+vot|1|votes!10&35@
+was|1|was_published_recently!9&34@
+-- END TREE

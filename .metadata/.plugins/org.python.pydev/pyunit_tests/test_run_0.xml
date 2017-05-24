@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="5" failures="0" finished="true" name="Test Run: 0" tests="0" total_time="null"/>
+<test location="/Users/jamesdeveloper/mysite/mysite/polls/admin.py" status="error" test="admin" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/jamesdeveloper/.p2/pool/plugins/org.python.pydev_5.7.0.201704111357/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/jamesdeveloper/mysite/mysite/polls/admin.py", line 6, in <module>
+    from .models import Question
+ImportError: attempted relative import with no known parent package
+ERROR: Module: admin could not be imported (file: /Users/jamesdeveloper/mysite/mysite/polls/admin.py).
+]]></stderr>
+</test>
+<test location="/Users/jamesdeveloper/mysite/mysite/polls/models.py" status="error" test="models" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/jamesdeveloper/.p2/pool/plugins/org.python.pydev_5.7.0.201704111357/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/jamesdeveloper/mysite/mysite/polls/models.py", line 8, in <module>
+    class Question(models.Model):
+  File "/Users/jamesdeveloper/mysite/mysite/polls/models.py", line 9, in Question
+    question_text = models.CharField(max_length=200)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 1057, in __init__
+    super(CharField, self).__init__(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+ModuleNotFoundError: No module named 'mysite'
+ERROR: Module: models could not be imported (file: /Users/jamesdeveloper/mysite/mysite/polls/models.py).
+]]></stderr>
+</test>
+<test location="/Users/jamesdeveloper/mysite/mysite/polls/urls.py" status="error" test="urls" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/jamesdeveloper/.p2/pool/plugins/org.python.pydev_5.7.0.201704111357/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/jamesdeveloper/mysite/mysite/urls.py", line 20, in <module>
+    url(r'^polls/', include('polls.urls')),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/Users/jamesdeveloper/mysite/mysite/polls/urls.py", line 3, in <module>
+    from . import views
+  File "/Users/jamesdeveloper/mysite/mysite/polls/views.py", line 12, in <module>
+    from .models import Choice, Question
+  File "/Users/jamesdeveloper/mysite/mysite/polls/models.py", line 8, in <module>
+    class Question(models.Model):
+  File "/Users/jamesdeveloper/mysite/mysite/polls/models.py", line 9, in Question
+    question_text = models.CharField(max_length=200)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 1057, in __init__
+    super(CharField, self).__init__(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+ModuleNotFoundError: No module named 'mysite'
+ERROR: Module: urls could not be imported (file: /Users/jamesdeveloper/mysite/mysite/polls/urls.py).
+]]></stderr>
+</test>
+<test location="/Users/jamesdeveloper/mysite/mysite/polls/views.py" status="error" test="views" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/jamesdeveloper/.p2/pool/plugins/org.python.pydev_5.7.0.201704111357/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/jamesdeveloper/mysite/mysite/polls/views.py", line 12, in <module>
+    from .models import Choice, Question
+ImportError: attempted relative import with no known parent package
+ERROR: Module: views could not be imported (file: /Users/jamesdeveloper/mysite/mysite/polls/views.py).
+]]></stderr>
+</test>
+<test location="/Users/jamesdeveloper/mysite/mysite/polls/migrations/0001_initial.py" status="error" test="migrations.0001_initial" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/jamesdeveloper/.p2/pool/plugins/org.python.pydev_5.7.0.201704111357/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/jamesdeveloper/mysite/mysite/polls/migrations/0001_initial.py", line 9, in <module>
+    class Migration(migrations.Migration):
+  File "/Users/jamesdeveloper/mysite/mysite/polls/migrations/0001_initial.py", line 20, in Migration
+    ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 906, in __init__
+    super(AutoField, self).__init__(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+ModuleNotFoundError: No module named 'mysite'
+ERROR: Module: migrations.0001_initial could not be imported (file: /Users/jamesdeveloper/mysite/mysite/polls/migrations/0001_initial.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="mysite polls"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

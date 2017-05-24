@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495498476495_1" label="mysite" name="mysite"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495503646513_3" label="WorkingSet" name="WorkingSet"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495503892309_4" label="WorkingSet1" name="WorkingSet1"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495504426731_5" label="dfda" name="dfda"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495504954916_6" label="NewSet" name="NewSet">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mysite" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PythonProjects" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495421645245_0" label="Window Working Set" name="Aggregate for window 1495421645245"/>
+<mruList name="NewSet"/>
+<mruList name="dfda"/>
+<mruList name="mysite"/>
+<mruList name="WorkingSet1"/>
+</workingSetManager>

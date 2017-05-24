@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="dfda"/>
+		<item value="mysite, WorkingSet, WorkingSet1"/>
+		<item value="WorkingSet1"/>
+		<item value="mysite, WorkingSet"/>
+		<item value="mysite"/>
+	</list>
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/jamesdeveloper/mysite/mysite/polls/migrations"/>
+		<item value="/Users/jamesdeveloper/mysite/polls"/>
+		<item value="/Users/jamesdeveloper/mysite/mysite"/>
+		<item value="/Users/jamesdeveloper/mysite"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="2343" key="DIALOG_X_ORIGIN"/>
+		<item value="414" key="DIALOG_Y_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="/Users/jamesdeveloper/mysite" key="OUTSIDE_LOCATION"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.python.pydev.django.ui.wizards.project.DjangoProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.python.pydev.PythonCategory"/>
+		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="554" key="DIALOG_X_ORIGIN"/>
+			<item value="341" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="529" key="DIALOG_HEIGHT"/>
+		<item value="592" key="DIALOG_X_ORIGIN"/>
+		<item value="22" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

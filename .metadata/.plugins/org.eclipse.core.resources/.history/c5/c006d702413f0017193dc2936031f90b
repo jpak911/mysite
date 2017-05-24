@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% if latest_question_list %}
+	<ul></ul>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
